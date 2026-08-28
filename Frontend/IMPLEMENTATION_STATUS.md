@@ -1,0 +1,25 @@
+# Implementation status
+
+- [x] Next.js App Router project
+- [x] 13 connected visual screens
+- [x] Two-second reel animation
+- [x] Backend-selected prize and coupon
+- [x] Public store configuration by `stores.slug`
+- [x] Review-click tracking
+- [x] 30-day participation error handling
+- [x] Screen transition animation + fallback
+- [x] Tutorial for every screen
+- [x] Persistent flow and coupon state
+- [x] Absolute five-minute local compatibility countdown
+- [x] JWT staff login
+- [x] JWT verification through `GET /api/auth/me`
+- [x] Coupon lookup through `GET /api/coupons/:code`
+- [x] Backend coupon validation through `POST /api/coupons/validate`
+- [x] Dynamic percentage and named gift rewards
+- [x] Exact backend route registry in `lib/api/routes.ts`
+- [x] Protected merchant API wrappers for stores/games/prizes/dashboard/users
+- [x] Same-origin Next.js backend proxy
+- [x] Backend health/store checker (`npm run check:backend`)
+- [x] Environment configuration documented
+- [ ] Backend redemption-session endpoints (not registered in supplied API)
+- [ ] Backend email/WhatsApp delivery endpoint (not registered in supplied API)
